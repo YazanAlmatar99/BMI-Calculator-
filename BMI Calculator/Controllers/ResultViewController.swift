@@ -20,6 +20,7 @@ class ResultViewController: UIViewController {
     
 
     @IBAction func recalculatePressed(_ sender: UIButton) {
+        //this will dismiss the ResultViewController
         self.dismiss(animated: true, completion: nil)
     }
     

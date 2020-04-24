@@ -34,8 +34,10 @@ class CalculateViewController: UIViewController {
         let bmi = weight / (height * height)
         bmiValue = String(format:"%.1f",bmi)
         print(bmi)
+        //this will perform the transition
         self.performSegue(withIdentifier: "goToResults", sender: self)
     }
+    //prepare for sending data to the ResultViewController
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == "goToResults" {
             let destinationVC = segue.destination as! ResultViewController
