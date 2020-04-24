@@ -13,7 +13,9 @@ class CalculateViewController: UIViewController {
     @IBOutlet weak var weightLabel: UILabel!
     @IBOutlet weak var heightSlider: UISlider!
     @IBOutlet weak var weightSlider: UISlider!
+    
     var bmiValue:String?
+    
     override func viewDidLoad() {
            super.viewDidLoad()
            // Do any additional setup after loading the view.
