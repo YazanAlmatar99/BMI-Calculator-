@@ -3,7 +3,12 @@
 //  BMI Calculator
 //
 //  Created by Yazan Almatar on 4/24/20.
-//  Copyright © 2020 Angela Yu. All rights reserved.
+//  Copyright © 2020 Yazan Almatar. All rights reserved.
 //
+import UIKit
 
-import Foundation
+struct BMI {
+    let value:Float
+    let advice:String
+    let color:UIColor
+}
