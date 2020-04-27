@@ -4,7 +4,7 @@
 
 ### credits: https://www.yazanalmatar.com
 
-## Getting Started
+## Getting Started :smiley:
 
 - \$ git clone https://github.com/YazanAlmatar99/BMI-Calculator-.git
 - \$ cd BMI-Calculator-
