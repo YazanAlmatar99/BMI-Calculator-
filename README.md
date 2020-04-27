@@ -6,7 +6,7 @@
 
 ## Getting Started
 
-- \$ git clone https://github.com/YazanAlmatar99/BMI-Calculator-
+- \$ git clone https://github.com/YazanAlmatar99/BMI-Calculator-.git
 - \$ cd BMI-Calculator-
 - \$ open BMI Calculator.xcodeproj
 
